@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'Accelerate','AssetsLibrary','AVFoundation','CoreGraphics','CoreImage','CoreMedia','CoreVideo','Foundation','QuartzCore','UIKit','CoreMotion'
   s.weak_frameworks = 'Metal','MetalPerformanceShaders', 'Photos', 'CoreML'
-  s.source       = { :git => "https://himi-public.oss-ap-southeast-1.aliyuncs.com/common/code/BytedEffectResources.zip", :tag => s.version.to_s }
+  s.source       = { "http": "https://himi-public.oss-ap-southeast-1.aliyuncs.com/common/code/BytedEffectResources.zip" }
   s.source_files  =  "include/BytedEffectSDK/*.h"
   s.public_header_files = "include/BytedEffectSDK/*.h"
   s.header_mappings_dir = "include/BytedEffectSDK/"
